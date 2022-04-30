@@ -46,7 +46,7 @@ window.bruiz = {
       success: function (e) {
         console.log(e);
         bruiz.message("success", "Success", mssg);
-        // resetData();
+        resetData();
       },
       error: function (e) {
         bruiz.message("error", "Error", error);
