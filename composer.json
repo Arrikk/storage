@@ -1,0 +1,13 @@
+{
+    "require": {
+        "twig/twig": "~1.0",
+        "simplehtmldom/simplehtmldom": "~v2.0-RC2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/",
+            "Router\\": "Router/"
+        }
+    }
+}

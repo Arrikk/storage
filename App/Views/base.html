@@ -1,0 +1,27 @@
+<html lang="en"><head>
+    <title> {% block title %} {% endblock %} </title>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="" name="keywords">
+    <meta content="Bruiz, Code Hart, Adeyemi Ademola PHP, NODE" name="author">
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#1b55e2">
+    <link href="/Public/img/no-avatar.png" rel="shortcut icon">
+    <link href="/Public/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/Public/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="/Public/css/main.css?version=4.4.0" rel="stylesheet">
+
+    <body class="menu-position-side menu-side-left full-screen with-content-panel">
+        <div class="all-wrapper with-side-panel solid-bg-all">
+            <div class="layout-w">
+                <div class="content-w"> 
+                    <div class="content-i">
+                        {% block body %} {% endblock %}
+                    </div>
+                </div>
+                <div class="display-type"> </div>
+            </div>
+        </div>
+    </body>
+</html>

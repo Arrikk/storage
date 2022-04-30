@@ -1,0 +1,77 @@
+[13-Nov-2021 12:02:48 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\Core\Controller.php(48): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\Cor...', 48, Array)
+#1 C:\PHP\blog\Core\Router.php(122): Core\Controller->__call('nullAction', Array)
+#2 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/null')
+#3 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 12:32:23 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/assets/i...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 12:32:24 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/assets/i...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 12:51:13 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\Core\Controller.php(48): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\Cor...', 48, Array)
+#1 C:\PHP\blog\Core\Router.php(122): Core\Controller->__call('nullAction', Array)
+#2 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/null')
+#3 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:19:14 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\Core\Controller.php(48): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\Cor...', 48, Array)
+#1 C:\PHP\blog\Core\Router.php(122): Core\Controller->__call('nullAction', Array)
+#2 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/null')
+#3 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:25:40 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\App\Views\shop\single.php(76): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\App...', 76, Array)
+#1 C:\PHP\blog\App\Views\index.php(32): require_once('C:\\PHP\\blog\\App...')
+#2 C:\PHP\blog\Core\View.php(30): require('C:\\PHP\\blog\\App...')
+#3 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#4 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#5 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#6 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:26:01 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\App\Views\shop\single.php(76): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\App...', 76, Array)
+#1 C:\PHP\blog\App\Views\index.php(32): require_once('C:\\PHP\\blog\\App...')
+#2 C:\PHP\blog\Core\View.php(30): require('C:\\PHP\\blog\\App...')
+#3 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#4 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#5 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#6 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:26:07 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\App\Views\shop\single.php(76): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\App...', 76, Array)
+#1 C:\PHP\blog\App\Views\index.php(32): require_once('C:\\PHP\\blog\\App...')
+#2 C:\PHP\blog\Core\View.php(30): require('C:\\PHP\\blog\\App...')
+#3 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#4 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#5 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#6 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:27:48 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\App\Views\shop\single.php(76): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\App...', 76, Array)
+#1 C:\PHP\blog\App\Views\index.php(32): require_once('C:\\PHP\\blog\\App...')
+#2 C:\PHP\blog\Core\View.php(30): require('C:\\PHP\\blog\\App...')
+#3 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#4 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#5 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#6 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:27:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Error'</p><p>Message: 'Class 'ExceptionError' not found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\App\Views\shop\single.php(76): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\PHP\\blog\\App...', 76, Array)
+#1 C:\PHP\blog\App\Views\index.php(32): require_once('C:\\PHP\\blog\\App...')
+#2 C:\PHP\blog\Core\View.php(30): require('C:\\PHP\\blog\\App...')
+#3 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#4 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#5 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#6 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Error.php' on line 26</p>
+[13-Nov-2021 13:28:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'ParseError'</p><p>Message: 'syntax error, unexpected 'echo' (T_ECHO)'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\Core\View.php(30): require()
+#1 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#2 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#3 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#4 {main}</pre></p><p>Throw in 'C:\PHP\blog\App\Views\shop\single.php' on line 76</p>
+[13-Nov-2021 13:28:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:52 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'ParseError'</p><p>Message: 'syntax error, unexpected 'echo' (T_ECHO)'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\Core\View.php(30): require()
+#1 C:\PHP\blog\App\Controllers\Shop.php(46): Core\View::draw('index.php', Array)
+#2 C:\PHP\blog\Core\Router.php(122): App\Controllers\Shop->gadgets()
+#3 C:\PHP\blog\index.php(61): Core\Router->dispatch('shop/gadgets')
+#4 {main}</pre></p><p>Throw in 'C:\PHP\blog\App\Views\shop\single.php' on line 76</p>
+[13-Nov-2021 13:28:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[13-Nov-2021 13:28:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(61): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>

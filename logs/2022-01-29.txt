@@ -1,0 +1,26 @@
+[29-Jan-2022 02:49:35 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('wallet/test')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:49:47 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('wallet/test')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:49:48 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:49:48 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:49:51 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('Public/img/no-a...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:50:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Controller class App\Controllers\Install dosent exist'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 129</p>
+[29-Jan-2022 02:50:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('Public/css/main...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:50:56 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('Public/bower_co...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:56:06 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('install/db-set-...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 02:56:48 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(38): Core\Router->dispatch('install/db-set-...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 03:11:45 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Page not Found'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(39): Core\Router->dispatch('install/db-set-...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 133</p>
+[29-Jan-2022 03:13:26 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Controller class App\Controllers\Install dosent exist'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(39): Core\Router->dispatch('install/db-set-...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 129</p>
+[29-Jan-2022 03:21:49 Europe/Berlin] <h1>Fatal Error</h1><p>Uncaught Exception: 'Exception'</p><p>Message: 'Controller class App\Controllers\Install dosent exist'</p><p>Stack Trace: <pre>#0 C:\PHP\blog\index.php(39): Core\Router->dispatch('install/db-set-...')
+#1 {main}</pre></p><p>Throw in 'C:\PHP\blog\Core\Router.php' on line 129</p>
