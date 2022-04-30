@@ -3,9 +3,7 @@
 namespace App\Controllers;
 
 use \Core\View;
-use \App\Models\User;
-use \App\Auth;
-use App\Controllers\Authenticated\Authenticated;
+use Core\Controller;
 use Core\Http\Res;
 
 /**
@@ -13,16 +11,15 @@ use Core\Http\Res;
  *
  * PHP version 7.0
  */
-class Home extends Authenticated
+class Home extends Controller
 {
 
     /**
      * Show the index page
      */
-    public function _index($get): array # get as GET
+    public function _index($get) # get as GET
     {
-
-        return [];
+        View::draw('index.html');
     }
 
 

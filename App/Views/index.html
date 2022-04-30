@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Public/assets/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Public/assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="/Public/assets/css/app.css">
+    <title>Enroll Fingerprint</title>
+</head>
+<body>
+<div class="container">
+    <div class="container-top">
+        <select name="" id="print_readers">
+            <option value="">Select</option>
+        </select>
+
+        <div class="fingerprint-button-container">
+            <button class="start-capture" id="capture">
+                <i class="bi-binoculars"></i>
+                Start Capture
+            </button>
+            <!-- <button class="start-capture" id="capture">
+                <i class="bi-binoculars"></i>
+                Stop Capture
+            </button> -->
+        </div>
+    </div>
+    <div id="enrollment" class="fingerprint_container">
+        <h2 class="fingerprint_title">Fingerprint Scanner</h2>
+
+        <div class="fingerprint_scan">
+            <div class="fingerprint_inner_scanned left">
+                <div class="biometric-title">
+                    Left Hand
+                </div>
+                <div class="fingerprint_scanned">
+                    <div class="print-container" data-finger="thumb">
+                            <div class="print-title">Thumb</div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="index">
+                            <div class="print-title">Index</div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="middle">
+                        <div class="print">
+                            <div class="print-title">Middle</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="ring">
+                        <div class="print">
+                            <div class="print-title">Ring</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="little">
+                        <div class="print">
+                            <div class="print-title">Little</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fingerprint_inner_scanned right">
+                <div class="biometric-title">
+                    Right Hand
+                </div>
+                <div class="fingerprint_scanned">
+                    <div class="print-container" data-finger="thumb">
+                            <div class="print-title">Thumb</div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="index">
+                            <div class="print-title">Index</div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="middle">
+                        <div class="print">
+                            <div class="print-title">Middle</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="ring">
+                        <div class="print">
+                            <div class="print-title">Ring</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                    <div class="print-container" data-finger="little">
+                        <div class="print">
+                            <div class="print-title">Little</div>
+                        </div>
+                        <div class="print-icon">
+                            <i class="bi-fingerprint"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fingerprint_image">
+            <div class="finger_img">
+                <img  class="finger-image" src="/Public/assets/img/left.png" alt="">
+            </div>
+            <div class="finger-scanner-container">
+                <img src="/Public/assets/img/finger.png" class="finger-image-scan" alt="">
+                <!-- <img src="/Public/assets/img/scanning.gif" class="finger-image-scan" alt=""> -->
+                <!-- <img src="/Public/assets/img/fingerprint.gif" class="finger-image-scan" alt=""> -->
+            </div>
+            <div class="finger_img">
+                <img src="/Public/assets/img/right.png" alt="" class="finger-image">
+            </div>
+        </div>
+
+        <div class="finger_enroll">
+            <button class="enroll" id="enroll">
+                <i class="bi-fingerprint"></i>
+                Enroll
+            </button>
+            <button class="clear" id="clear" disabled>
+                <i class="bi-stop-circle"></i>
+                Clear
+            </button>
+        </div>
+    </div>
+    <div id="verification" class="fingerprint_container text-center">
+        <h1 class="fingerprint_title">Fingerprint Verification</h1>
+        <p>Scan any finger to verify</p>
+
+        <div class="fingerprint_image">
+            <div class="finger-scanner-container">
+                <img src="/Public/assets/img/finger.png" class="finger-image-scan" alt="">
+                <!-- <img src="/Public/assets/img/scanning.gif" class="finger-image-scan" alt=""> -->
+                <!-- <img src="/Public/assets/img/fingerprint.gif" class="finger-image-scan" alt=""> -->
+            </div>
+        </div>
+
+        <div class="finger_enroll">
+            <button class="enroll" id="verify">
+                <i class="bi-fingerprint"></i>
+                Verify
+            </button>
+            <button class="clear" id="clear" disabled>
+                <i class="bi-stop-circle"></i>
+                Clear
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="fingerprint_preview">
+</div>
+    
+<script src="/Public/assets/js/jquery-3.5.0.min.js"></script>
+<script src="/Public/assets/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="/Public/assets/node_modules/axios/dist/axios.min.js"></script>
+<script src="/Public/assets/js/es6-shim.js"></script>
+<script src="/Public/assets/js/websdk.client.bundle.min.js"></script>
+<script src="/Public/assets/js/fingerprint.sdk.min.js"></script>
+<script src="/Public/assets/js/utils.js"></script>
+<!-- <script src="/Public/test.js"></script> -->
+<script src="/Public/assets/js/custom.js"></script>
+</body>
+</html>

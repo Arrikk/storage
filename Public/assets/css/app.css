@@ -1,0 +1,228 @@
+:root {
+  --blue: rgb(26, 95, 233);
+  --grey: #ddd;
+  --green: rgb(117, 237, 117);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+html,
+body {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  background-color: rgb(246, 246, 246);
+}
+button {
+  padding: 6px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  background: var(--blue);
+  cursor: pointer;
+}
+button:disabled {
+  background: rgb(51, 125, 222);
+  cursor: no-drop;
+}
+select {
+  border-radius: 4px;
+  width: 200px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.501);
+  border: none;
+  color: rgb(173, 173, 173);
+}
+select:focus {
+  outline: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+  background: linear-gradient(rgba(246, 246, 246, 0.851), rgb(246, 246, 246)),
+    url(https://i.pinimg.com/originals/28/9e/1f/289e1f27bfbc50780633416129398253.gif)
+      no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container-top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.fingerprint_wrapper{
+  display: flex;
+}
+.fingerprint_preview{
+  background: rgba(255, 255, 255, 0.568);
+  position: absolute;
+  max-width: 180px;
+  top: 80px;
+  right: 50px;
+  text-align: center;
+  padding: 10px 0;
+
+}
+.fingerprint_preview img{
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  object-fit: cover;
+}
+.fingerprint_container {
+  background: rgba(255, 255, 255, 0.643);
+  flex:3;
+  /* max-width: 80%; */
+
+  margin: 0 auto;
+  padding: 20px;
+  /* box-shadow: 0 0 20px 10px rgb(237, 236, 236); */
+  /* margin: 20%; */
+  /* height: 70vh; */
+}
+.fingerprint_title {
+  font-size: 110%;
+  margin-bottom: 30px;
+}
+.fingerprint_scan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.fingerprint_scanned {
+  width: 75%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.print-container {
+  margin: 0px 3px;
+  margin-bottom: 20px;
+  width: 60px;
+  max-width: 60px;
+  height: 65px;
+}
+.print-title {
+  padding: 5px;
+  width: 100%;
+  font-size: 60%;
+  font-weight: bold;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: var(--grey);
+  color: #fff;
+  text-align: center;
+}
+.print-icon {
+  color: var(--grey);
+  border: 2px solid var(--grey);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 120%;
+  align-items: center;
+}
+.biometric-title {
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-align: center;
+  background: var(--blue);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-size: 70%;
+  font-weight: bold;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+/* ================ active state =========== */
+.biometric-title.active {
+  animation: isActive 3s infinite;
+}
+.biometric-title.green{
+    background-color: var(--green);
+}
+
+@keyframes isActive {
+  from {
+    box-shadow: 0px 0px 12px rgb(2, 15, 77);
+  }
+  to {
+    box-shadow: 0px 0px 12px rgb(0, 72, 255);
+  }
+}
+@keyframes isCapturing {
+  to {
+    background-color: rgb(228, 203, 112);
+  }
+}
+@keyframes iconCapture {
+    to{
+        color: rgb(228, 203, 112);
+        border-color: rgb(228, 203, 112);
+    }
+}
+.print-container.active .print-icon {
+  color: var(--blue);
+  border-color: var(--blue);
+  animation: iconCapture 2s infinite;
+}
+.print-container.active .print-title {
+    background-color: var(--blue);
+    animation: isCapturing 2s infinite;
+}
+.print-container.green .print-icon {
+  color: var(--green);
+  border-color: var(--green);
+}
+.print-container.green .print-title {
+  background-color: var(--green);
+}
+/* ==============Section Finger ============ */
+.fingerprint_image {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.finger_img {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 12px 3px rgba(237, 236, 236, 0.864);
+}
+.finger-image {
+  width: 100px;
+}
+.finger-image-scan {
+  width: 130px;
+}
+.finger_enroll {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.enroll {
+  width: 150px;
+}
+button.clear{
+  background-color: rgb(228, 203, 112);
+  margin-left: 10px;
+  display: none;
+}
+/* =========================== */
+.text-center{
+  text-align: center;
+}
+/* =========== Toggle enrollment and verification ======= */
+#verification, #enrollment{
+  display: none;
+}
